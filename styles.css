@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&family=Montserrat:ital,wght@0,200;1,100&family=Poppins:ital,wght@0,100;1,100&family=Roboto:wght@100&family=Square+Peg&family=Tapestry&display=swap');
+
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{background-color: #F3F5FC;
+    height: 1440px;
+    width: 1024px;
+    left: 0px;
+    top: 0px;}
+
+.a{ width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 30px;
+    }
+
+h1{ height: 48px;
+    width: 31.085588455200195px;
+    left: 48px;
+    color: #0A3871;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+}   
+    
+    
+.principal {
+    
+    height: 840px;
+    width: 550px;
+    left: 240px;
+    top: 168px;
+    border-radius: 32px;
+    padding-top: 40px;
+    margin: 5px 20px;
+    display: flex;
+    padding-left: 100px;
+    
+}
+
+
+.parrafo {
+    height: 288px;
+    width: 680px;
+    left: 240px;
+    top: 168px;
+    background-color: #F3F5FC;  
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10%;
+    color: #0A3871;
+    
+
+}
+
+/* Le agregamos un estilo al placeholder*/
+
+.parrafo::placeholder {
+    text-align: center;
+    font-family: inherit;
+    font-size: 32px;
+    background: #F3F5FC;
+    
+    }  
+
+.botones-contenedor{margin-top: 500px;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+
+
+}
+
+.botones-contenedor ul li{font-size: 20px; font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 	
+list-style: none;
+} 
+
+
+
+.botones{
+    width: 550px;
+    height: 67px;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 20px;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.botonEncriptar{background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    width: 328px;
+    height: 67px;
+    font-size: large;
+
+    }
+
+.botonEncriptar:hover{transform: scale(1.1);
+background-color: red;
+border: none;
+font-size: x-large;
+color: white;
+transition: 2s;
+}    
+.boton2 {background: #FFFFFF;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    font-size: large;
+
+}
+
+.boton2:hover{transform: scale(1.1);
+    background-color: red;
+    border: none;
+    font-size: x-large;
+    color: white;
+    transition: 2s;
+}
+
+.resultadodesencriptado{height: 944px;
+    width: 400px;
+    top: 0px;
+    border-radius: 32px;
+    display: inline-block;
+    margin-left: 10px;
+    
+   }
+
+.resultado{
+    margin: 2px 2px;
+    height: 781px;
+    width: 336px;
+    left: 1032px;
+    top: 72px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+
+    }   
+    
+.boton3 {
+    margin-top: 45px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    font-size: large;
+}    
+
+.boton3:hover{transform: scale(1.1);
+    background-color: red;
+    transition: 2s;
+    border: none;
+    font-size: x-large;
+    color: white;
+}
